@@ -7,7 +7,7 @@
     "react-app-rewired": "./bin/index.js"
   },
   "peerDependencies": {
-    "react-scripts-cyaglenski": "3.0.1"
+    "react-scripts-cyaglenski": "2.1.1"
   },
   "dependencies": {
     "cross-spawn": "^5.1.0",
