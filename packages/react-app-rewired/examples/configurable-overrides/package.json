@@ -6,7 +6,7 @@
     "react": "^16.2.0",
     "react-app-rewired": "file:react-app-rewired-1.4.1.tgz",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-scripts-cyaglenski": "3.0.1"
   },
   "scripts": {
     "start": "react-app-rewired start --config-overrides ./custom-overides"
