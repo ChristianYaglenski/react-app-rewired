@@ -1,6 +1,6 @@
 # react-app-rewired
 
-Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts.
+Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts-cyaglenski.
 
 All the benefits of create-react-app without the limitations of "no config". You can add plugins, loaders whatever you need.
 

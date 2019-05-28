@@ -1,7 +1,7 @@
 {
-  "name": "react-app-rewired",
+  "name": "react-app-rewired-cyaglenski",
   "version": "1.6.2",
-  "description": "Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts",
+  "description": "Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts-cyaglenski",
   "private": false,
   "bin": {
     "react-app-rewired": "./bin/index.js"

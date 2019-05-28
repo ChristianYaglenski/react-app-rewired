@@ -20,7 +20,7 @@ Then, add these scripts to your `package.json`:
    "scripts": {
 +    "styleguide": "styleguidist server",
 +    "styleguide:build": "styleguidist build",
-     "start": "react-scripts start",
+     "start": "react-scripts-cyaglenski start",
 ```
 
 Styleguidist works out of the box with `create-react-app` but since you are using `react-app-rewired` we need to point Styleguidist to our rewired webpack config. In your project root create file named `styleguide.config.js` and put the following content in:
@@ -34,7 +34,7 @@ require(paths.scriptVersion + "/config/env");
 const webpackConfig = (process.env.NODE_ENV === 'production')
     ? paths.scriptVersion + '/config/webpack.config.prod'
     : paths.scriptVersion + '/config/webpack.config.dev';
-    
+
 const config = require(webpackConfig);
 const override = require(paths.configOverrides);
 const overrideFn =
@@ -62,4 +62,4 @@ Learn more about React Styleguidist:
 
 Guide built upon:
 
-* [create-react-app#getting-started-with-styleguidist](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#getting-started-with-styleguidist)
+* [create-react-app#getting-started-with-styleguidist](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts-cyaglenski/template/README.md#getting-started-with-styleguidist)

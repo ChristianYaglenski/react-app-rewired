@@ -22,7 +22,7 @@ if (co_index > -1 && co_index + 1 <= process.argv.length) {
   process.argv.splice(co_index, 2);
 }
 
-const scriptVersion = custom_scripts || 'react-scripts';
+const scriptVersion = custom_scripts || 'react-scripts-cyaglenski';
 const modulePath = path.join(
   require.resolve(`${scriptVersion}/package.json`),
   '..'
